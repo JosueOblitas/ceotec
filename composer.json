@@ -1,0 +1,16 @@
+{
+    "name": "josue/ceotec",
+    "autoload": {
+        "psr-4": {
+            "Josue\\Ceotec\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Josue Oblitas"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8"
+    }
+}

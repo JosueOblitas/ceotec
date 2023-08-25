@@ -1,0 +1,16 @@
+[12-Aug-2023 03:06:35 America/Lima] PHP Warning:  require(/views/servidores.php): Failed to open stream: No such file or directory in /home2/dbswrgug/public_html/index.php on line 13
+[12-Aug-2023 03:06:35 America/Lima] PHP Fatal error:  Uncaught Error: Failed opening required '/views/servidores.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/dbswrgug/public_html/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/dbswrgug/public_html/index.php on line 13
+[12-Aug-2023 03:14:58 America/Lima] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dbswrgug/public_html/vendor/phpmailer/phpmailer/src/SMTP.php:288) in /home2/dbswrgug/public_html/api.php on line 148
+[12-Aug-2023 03:19:31 America/Lima] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dbswrgug/public_html/vendor/phpmailer/phpmailer/src/SMTP.php:288) in /home2/dbswrgug/public_html/api.php on line 148
+[12-Aug-2023 03:21:01 America/Lima] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dbswrgug/public_html/vendor/phpmailer/phpmailer/src/SMTP.php:288) in /home2/dbswrgug/public_html/api.php on line 147
+[12-Aug-2023 03:22:47 America/Lima] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dbswrgug/public_html/vendor/phpmailer/phpmailer/src/SMTP.php:288) in /home2/dbswrgug/public_html/api.php on line 147
+[12-Aug-2023 03:23:34 America/Lima] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dbswrgug/public_html/vendor/phpmailer/phpmailer/src/SMTP.php:288) in /home2/dbswrgug/public_html/api.php on line 147
+[12-Aug-2023 03:24:30 America/Lima] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dbswrgug/public_html/vendor/phpmailer/phpmailer/src/SMTP.php:288) in /home2/dbswrgug/public_html/api.php on line 147
+[12-Aug-2023 03:27:25 America/Lima] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dbswrgug/public_html/vendor/phpmailer/phpmailer/src/SMTP.php:288) in /home2/dbswrgug/public_html/api.php on line 147
+[12-Aug-2023 03:29:03 America/Lima] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dbswrgug/public_html/vendor/phpmailer/phpmailer/src/SMTP.php:288) in /home2/dbswrgug/public_html/api.php on line 147
+[12-Aug-2023 03:31:20 America/Lima] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dbswrgug/public_html/vendor/phpmailer/phpmailer/src/SMTP.php:288) in /home2/dbswrgug/public_html/api.php on line 146
+[12-Aug-2023 03:32:13 America/Lima] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dbswrgug/public_html/vendor/phpmailer/phpmailer/src/SMTP.php:288) in /home2/dbswrgug/public_html/api.php on line 146
+[12-Aug-2023 03:32:56 America/Lima] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/dbswrgug/public_html/vendor/phpmailer/phpmailer/src/SMTP.php:288) in /home2/dbswrgug/public_html/api.php on line 146
