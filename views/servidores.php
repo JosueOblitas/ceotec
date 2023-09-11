@@ -89,7 +89,7 @@
                     data-delay="100"
                     data-words="En infraestructura, En almacenamiento redundante, En espacio IP propio , En soporte especializado"></span><span
                     class="cursor text-primary" data-owner="typer"></span></h2>
-            <p class="lead fs-24 lh-sm mb-7 py-5">Descubre el siguiente nivel de rendimiento con nuestra plataforma
+            <p class="lead lh-sm mb-7 py-5">Descubre el siguiente nivel de rendimiento con nuestra plataforma
                 Cloud y que deja atrás a los servidores VPS tradicionales. Gracias a nuestra infraestructura de
                 vanguardia, un enfoque riguroso en la seguridad, una arquitectura con redundancia y la capacidad de
                 alojar servidores en Perú, llevamos tu experiencia a un nivel superior.</p>
