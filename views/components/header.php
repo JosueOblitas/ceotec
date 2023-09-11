@@ -1,4 +1,8 @@
 <style>
+    body {
+        font-family: Helvetica, sans-serif;
+    }
+
     .bg-dark {
         background: rgb(0, 0, 0);
         background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(15, 2, 2, 1) 24%, rgba(50, 5, 5, 1) 38%, rgba(95, 12, 12, 1) 58%, rgba(168, 16, 16, 1) 82%, rgba(226, 9, 9, 1) 100%);
@@ -49,6 +53,12 @@
         fill: #ffffff
     }
 </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+    integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <div class="">
     <header class="wrapper bg-dark">
         <nav class="navbar navbar-expand-lg center-nav navbar-dark navbar-bg-dark">

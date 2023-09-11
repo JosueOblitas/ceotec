@@ -1,48 +1,26 @@
 <section class="wrapper bg-light">
     <div class="container py-14 py-md-16">
-        <h1 class="display-3 mb-3">Ponte en contacto con nosotros</h1>
-        <h2 class="fs-16 text-uppercase text-line text-primary mb-3 pb-10">Nuestro equipo de ventas estarán atentos a tu
-            mensaje
-        </h2>
+        <h2 class="fs-32 text-uppercase text-red mb-1" style="position: relative;vertical-align: top;">
+            Hablemos de tu requerimiento</h2>
+        <p style="font-size: 20px;position: relative;vertical-align: top;color: #000;" class="pb-4">
+            Nuestro equipo de ventas estará atento a tu mensaje</p>
         <div class="row gy-10 gx-lg-8 gx-xl-12 align-items-center">
             <!--/column -->
             <div class="col-lg-7 position-relative">
-                <div class="shape bg-dot primary rellax w-18 h-18" data-rellax-speed="1"
-                    style="top: 0; left: -1.4rem; z-index: 0;"></div>
-                <div class="row gx-md-5 gy-5">
+                <img width="400px" class="d-flex mx-auto mb-5"
+                    src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1694442893/setecloud/Ima06_sin_fondo_vfmgxp.png"
+                    alt="">
+                <div class="row d-flex align-items-center">
                     <div class="col-md-6">
-                        <figure class="rounded mt-md-10 position-relative"><img
-                                src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1691812356/setecloud/g5_olee53.jpg"
-                                srcset="https://res.cloudinary.com/dwipjtlpj/image/upload/v1691812356/setecloud/g5_olee53.jpg"
-                                alt=""></figure>
+                        <img width="250" class="d-flex mx-auto"
+                            src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1694443056/setecloud/Ima07_CEOTEC_ocljkq.png"
+                            alt="">
                     </div>
-                    <!--/column -->
-                    <div class="col-md-6">
-                        <div class="row gx-md-5 gy-5">
-                            <div class="col-md-12 order-md-2">
-                                <figure class="rounded"><img
-                                        src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1691812397/setecloud/g6_it3wjf.jpg"
-                                        srcset="https://res.cloudinary.com/dwipjtlpj/image/upload/v1691812397/setecloud/g6_it3wjf.jpg"
-                                        alt=""></figure>
-                            </div>
-                            <!--/column -->
-                            <div class="col-md-10">
-                                <div class="card bg-pale-primary text-center counter-wrapper">
-                                    <div class="card-body py-11">
-                                        <h3 class="counter text-nowrap">3500+</h3>
-                                        <p class="mb-0">Clientes satisfechos</p>
-                                    </div>
-                                    <!--/.card-body -->
-                                </div>
-                                <!--/.card -->
-                            </div>
-                            <!--/column -->
-                        </div>
-                        <!--/.row -->
+                    <div class="col-md-6 mt-4">
+                        <img width="250" src="https://clientes.hostinglabs.net/assets/img/logo.png"
+                            class="d-flex mx-auto" alt="">
                     </div>
-                    <!--/column -->
                 </div>
-                <!--/.row -->
             </div>
             <div class="col-lg-5">
                 <div class="alert alert-icon" role="alert" id="messageAlert" style="display: none;">
@@ -53,7 +31,7 @@
                         <div class="col-md-6">
                             <div class="form-floating mb-4">
                                 <input id="form_name" type="text" name="nombre" class="form-control" placeholder="Jane">
-                                <label for="form_name">First Name *</label>
+                                <label for="form_name">Nompre *</label>
                             </div>
                         </div>
                         <!-- /column -->
@@ -61,7 +39,7 @@
                             <div class="form-floating mb-4">
                                 <input id="form_lastname" type="text" name="apellido" class="form-control"
                                     placeholder="Doe">
-                                <label for="form_lastname">Last Name *</label>
+                                <label for="form_lastname">Apellido *</label>
                             </div>
                         </div>
                         <!-- /column -->
@@ -69,7 +47,14 @@
                             <div class="form-floating mb-4">
                                 <input id="form_email" type="email" name="correo" class="form-control"
                                     placeholder="jane.doe@example.com">
-                                <label for="form_email">Email *</label>
+                                <label for="form_email">Correo *</label>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-floating mb-4">
+                                <input id="phone" type="text" name="phone" class="form-control"
+                                    placeholder="jane.doe@example.com">
+                                <label for="phone">Telefono *</label>
                             </div>
                         </div>
                         <!-- /column -->
@@ -77,14 +62,22 @@
                             <div class="form-floating mb-4">
                                 <textarea id="form_message" name="mensaje" class="form-control"
                                     placeholder="Your message" style="height: 150px"></textarea>
-                                <label for="form_message">Message *</label>
+                                <label for="form_message">Mensaje *</label>
                             </div>
                         </div>
                         <!-- /column -->
                         <div class="col-12">
                             <input type="submit" class="btn btn-primary rounded-pill btn-send mb-3"
                                 value="Enviar Mensaje">
-                            <p class="text-muted"><strong>*</strong> Todos los campos son requeridos</p>
+                            <div class="d-flex align-items-center gap-2 mt-3">
+                                <p class="text-muted"><strong></strong>
+                                    <i class="fa-solid fa-phone"></i> (01)
+                                    304 2190
+                                </p>
+                                <p class="text-muted"><strong></strong>
+                                    <i class="fa-solid fa-envelope"></i> ventas@ceotec.pe
+                                </p>
+                            </div>
                         </div>
                         <!-- /column -->
                     </div>

@@ -73,7 +73,7 @@ function sendEmail($to, $subject, $message)
         $mail->SMTPAuth = false;
         $mail->Username = "formluariocontacto@ceotec.pe";
         $mail->Password = "6)k)eNRy_X7g";
-        $mail->Port       = 25; 
+        $mail->Port = 25;
         // Configuramos el remitente y destinatario del correo
         $mail->setFrom('formluariocontacto@ceotec.pe', 'Formulario web');
         $mail->addAddress($to);
@@ -105,7 +105,7 @@ if (isIPBlocked(getClientIP())) {
             $data = json_decode(file_get_contents("php://input"), true);
 
             // Definimos los campos obligatorios
-            $requiredFields = array("nombre", "apellido", "correo", "mensaje");
+            $requiredFields = array("nombre", "apellido", "correo", "mensaje", "phone");
             $missingFields = array();
 
             // Verificamos si los campos obligatorios están presentes
@@ -121,7 +121,7 @@ if (isIPBlocked(getClientIP())) {
             } else {
                 // Si todos los campos están presentes, construimos el correo y lo enviamos
                 $to = "ventas@ceotec.pe";
-                $subject = "Contacto de " . $data["nombre"] . " " . $data["apellido"];
+                $subject = "Contacto de " . $data["nombre"] . " " . $data["apellido"] . ". Número de Teléfono:" . $data["phone"];
                 $message = $data["mensaje"];
 
                 // Enviamos el correo y verificamos si se envió con éxito
