@@ -9,8 +9,7 @@
     <meta name="keywords"
         content="bootstrap 5, business, corporate, creative, gulp, marketing, minimal, modern, multipurpose, one page, responsive, saas, sass, seo, startup, html5 template, site template">
     <meta name="author" content="elemis">
-    <title>Sandbox - Modern & Multipurpose Bootstrap 5 Template</title>
-    <link rel="shortcut icon" href="/views/assets/img/favicon.png">
+    <title>Inicio</title>
     <link rel="stylesheet" href="/views/assets/css/plugins.css">
     <link rel="stylesheet" href="/views/assets/css/style.css">
     <link rel="stylesheet" href="/views/assets/css/colors/red.css">
@@ -53,7 +52,7 @@
                         ¡Únete a la revolución de la infraestructura en nube ahora!
                     </p>
                     <div>
-                        <a class="btn btn-lg btn-red rounded">Contactanos</a>
+                        <a href="https://wa.me/51942659045" class="btn btn-lg btn-red rounded">Contactanos</a>
                     </div>
                 </div>
                 <!-- /column -->
@@ -205,7 +204,7 @@
     </section>
     <!-- /section -->
     <section class="wrapper">
-        <div class="container py-14 pt-md-17">
+        <div class="container py-14 pt-md-10">
             <div class="row gx-lg-8 gx-xl-12 gy-10 gy-lg-0 mb-2 align-items-end">
                 <div class="col-lg-4">
                     <h2 class="fs-32 text-uppercase text-red mb-1" style="position: relative;vertical-align: top;">
@@ -271,11 +270,6 @@
 
     <?php require_once("components/contacto.php") ?>
     <?php require_once("components/footer.php") ?>
-    <div class="progress-wrap">
-        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-        </svg>
-    </div>
     <script src="/views/assets/js/plugins.js"></script>
     <script src="/views/assets/js/theme.js"></script>
 </body>

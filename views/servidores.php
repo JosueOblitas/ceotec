@@ -25,24 +25,37 @@
 
 
 
-    <div class="pt-10 pb-9 pt-md-14 pb-md-11 text-center bg-dark text-white">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-                    <div class="post-header">
-                        <div class="post-category text-line">
-                            <a href="#" class="hover" rel="category">CEOTEC</a>
-                        </div>
-                        <!-- /.post-category -->
-                        <h1 class="display-1 mb-3 text-white">Servidores Virtuales Cloud</h1>
+    <!-- /header -->
+    <section class="wrapper bg-dark lower-start py-5">
+        <div class="container py-md-15 pt-md-11 pb-8">
+            <div class="row d-flex align-items-center">
+                <div class="col-12 col-lg-7 mt-md-15" data-cues="slideInDown" data-group="page-title" data-delay="600">
+                    <h1 class="display-1 text-white mb-4">Servidores virtuales cloud</h1>
+                    <p class="text-white" style="font-size: 17px;">
+                        Nuestra selección de Servidores en la nube destaca por nuestra tecnología insignia, Real Cloud™.
+                        Estos servidores se basan en las renombradas arquitecturas de virtualización XEN y KVM,
+                        ampliamente respaldadas por gigantes tecnológicos como Amazon™, IBM™, Google™ y Oracle™. Con
+                        hipervisores robustos, garantizamos una infraestructura que fusiona seguridad, recursos
+                        independientes y una asombrosa flexibilidad de escalabilidad en cuestión de segundos.
+                    </p>
+                </div>
+                <!-- /column -->
+                <div class="col-12 col-lg-5 mb-n12" data-cues="slideInDown">
+                    <div class="position-relative">
+                        <!-- <a href="../assets/media/movie.mp4" class="btn btn-circle btn-primary btn-play ripple mx-auto mb-6 position-absolute" style="top:50%; left: 50%; transform: translate(-50%,-50%); z-index:3;" data-glightbox><i class="icn-caret-right"></i></a>
+                            <figure class="rounded shadow-lg"><img src="../assets/img/photos/about13.jpg" srcset="../assets/img/photos/about13@2x.jpg 2x" alt=""></figure> -->
+                        <img class="img-fluid d-flex mx-auto" width="500px"
+                            src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1694463907/setecloud/Ima08_ntdgso.png"
+                            alt="test">
                     </div>
-                    <!-- /.post-header -->
+                    <!-- /div -->
                 </div>
                 <!-- /column -->
             </div>
             <!-- /.row -->
         </div>
-    </div>
+        <!-- /.container -->
+    </section>
 
 
 
@@ -53,10 +66,11 @@
             <div class="col-lg-9 col-md-12 text-md-center text-lg-start">
                 <h1 class="display-3 mb-3">Virtualización RealCloud</h1>
                 <p class="">
-                    Ya sea Windows Server o la distribución Linux que prefieras. Nuestra tecnología RealCloud™ basada en
-                    hipervisores XEN y KVM garantiza el aislamiento de recursos y la mejor virtualización de hardware,
-                    permitiendonos desplegar servidores virtuales cloud (en nube) con el sistema operativo de su
-                    preferencia.
+                    Tu decisión es primordial, si optas por Windows Server o si prefieres una distribución Linux,
+                    nuestra revolucionaria tecnología RealCloud™ está respaldada por hipervisores XEN y KVM que asegura
+                    un aislamiento óptimo de recursos y una virtualización de hardware de vanguardia. Gracias a esta
+                    base, somos capaces de desplegar servidores virtuales cloud junto al sistema operativo de tu
+                    elección.
                 </p>
             </div>
             <div class="col-lg-3 col-md-12 d-flex align-items-center justify-md-content-center">
@@ -71,18 +85,21 @@
 
     <section class="wrapper bg-light">
         <div class="container pb-14 py-md-10">
-            <h2 class="display-3 mb-4">Marcando <br /><span class="typer text-primary text-nowrap" data-delay="100"
-                    data-words="la diferencia"></span><span class="cursor text-primary" data-owner="typer"></span></h2>
-            <p class="lead fs-24 lh-sm mb-7 py-5">Nuestra plataforma Cloud ofrece mejor desempeño que los
-                Servidores VPS tradicionales, gracias a una mejor infraestructura, seguridad, redundancia en diseño y la
-                posibilidad de desplegar servidores en Perú.</p>
+            <h2 class="display-3 mb-4">Marcamos la diferencia <br /><span class="typer text-primary text-nowrap"
+                    data-delay="100"
+                    data-words="En infraestructura, En almacenamiento redundante, En espacio IP propio , En soporte especializado"></span><span
+                    class="cursor text-primary" data-owner="typer"></span></h2>
+            <p class="lead fs-24 lh-sm mb-7 py-5">Descubre el siguiente nivel de rendimiento con nuestra plataforma
+                Cloud y que deja atrás a los servidores VPS tradicionales. Gracias a nuestra infraestructura de
+                vanguardia, un enfoque riguroso en la seguridad, una arquitectura con redundancia y la capacidad de
+                alojar servidores en Perú, llevamos tu experiencia a un nivel superior.</p>
             <div class="table-responsive px-5">
                 <table class="table table-borderless table-striped text-center">
                     <thead>
                         <tr>
                             <th class="w-25"></th>
                             <th>
-                                <div class="h4 mb-1">CeoTec</div>
+                                <div class="h4 mb-1">Ceotec y HostingLabs </div>
                             </th>
                             <th>
                                 <div class="h4 mb-1">Otros</div>
@@ -92,49 +109,75 @@
                     <tbody>
                         <tr>
                             <td class="option text-start">Infraestructura</td>
-                            <td>
-                                <i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i>
-                                <p>Equipamiento propio <br>
-                                    Servidores HPE, Conectividad Cisco y Seguridad Fortinet</p>
+                            <td class="">
+                                <div class="mb-3"> <i
+                                        class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i>
+                                    Equipamiento
+                                    propio </div>
+                                <div class="mb-3"><i
+                                        class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i>
+                                    Servidores HPE</div>
+                                <div class="mb-3"> <i
+                                        class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i>
+                                    Conectividad Cisco</div>
+                                <div class="mb-3"><i
+                                        class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i>
+                                    Seguridad Fortinet</div>
                             </td>
                             <td>
-                                -
-                                <p>Ninguna, revende servicios del extranjero</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="option text-start">Almacenamiento redundante </td>
-                            <td>
-                                <i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i>
-                                <p>Almacenamiento Distribuido CEPH</p>
-                            </td>
-                            <td>
-                                -
-                                <p>Almacenamiento local</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="option text-start">Espacio IP Propio</td>
-                            <td>
-                                <i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i>
-                                <p>IPs propias <br>
-                                    Miembros de ARIN & LACNIC</p>
-                            </td>
-                            <td>
-                                -
-                                <p>IPs reutilizadas</p>
+                                <p>- No tienen</p>
+                                <p>- Revenden servicios del extranjero</p>
+                                <p>- Pésima calidad en sus servicios</p>
                             </td>
                         </tr>
                         <tr>
-                            <td class="option text-start">Soporte Especializado</td>
+                            <td class="option text-start">Almacenamiento</td>
                             <td>
-                                <i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i>
-                                <p>Personal con certificación <br>
-                                    cPanel / Linux / Windows Server</p>
+                                <div class="mb-3"> <i
+                                        class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i>
+                                    Arquitectura de almacenamiento CEPH (Distribuido & Redundante) </div>
+                                <div class="mb-3"><i
+                                        class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i>
+                                    Expuestos a perdida de información</div>
                             </td>
                             <td>
-                                -
-                                <p>Tercerizado o local solo de nivel 1</p>
+                                <p>- Almacenamiento en discos locales sin redundancia</p>
+                                <p>- Expuestos a perdida de información</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="option text-start">Direcciones IP</td>
+                            <td>
+                                <div class="mb-3"> <i
+                                        class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i>
+                                    IPs propias</div>
+                                <div class="mb-3"><i
+                                        class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i>
+                                    Miembros de ARIN & LACNIC</div>
+                            </td>
+                            <td>
+                                <p>- IPs reutilizadas</p>
+                                <p>- IPs en lista negra</p>
+                                <p>- No tienen control sobre las IPs</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="option text-start">Asistencia Técnica</td>
+                            <td>
+                                <div class="mb-3"> <i
+                                        class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i>
+                                    Personal altamente capacitado</div>
+                                <div class="mb-3"><i
+                                        class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i>
+                                    Cuentan con certificación cPanel, Linux y Windows Server</div>
+                                <div class="mb-3"><i
+                                        class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i>
+                                    Soporte en idioma español</div>
+                            </td>
+                            <td>
+                                <p>- Tercerizado</p>
+                                <p>- Cuentan con 1 solo nivel de atención</p>
+                                <p>- Demora en la respuesta</p>
                             </td>
                         </tr>
                     </tbody>
@@ -159,7 +202,7 @@
 
     <section class="wrapper bg-light">
         <div class="container pb-14 py-md-10">
-            <h1 class="display-3 mb-3">Nuestros Planes</h1>
+            <h1 class="display-3 mb-3">Elige tu propio Servidor Cloud</h1>
             <!--/.row -->
             <div class="pricing-wrapper position-relative">
                 <div class="shape bg-dot primary rellax w-16 h-18" data-rellax-speed="1"
@@ -167,39 +210,137 @@
                 <div class="shape rounded-circle bg-line red rellax w-18 h-18 d-none d-lg-block" data-rellax-speed="1"
                     style="bottom: 0.5rem; left: -2.5rem;"></div>
                 <div class="pricing-switcher-wrapper switcher">
-                    <p class="mb-0 pe-3">Monthly</p>
+                    <p class="mb-0 pe-3">Mensual</p>
                     <div class="pricing-switchers">
                         <div class="pricing-switcher pricing-switcher-active"></div>
                         <div class="pricing-switcher"></div>
                         <div class="switcher-button bg-primary"></div>
                     </div>
-                    <p class="mb-0 ps-3">Yearly</p>
+                    <p class="mb-0 ps-3">Anual</p>
                 </div>
                 <div class="row gy-6 mt-3 mt-md-5">
                     <div class="col-md-6 col-lg-4">
                         <div class="pricing card text-center">
                             <div class="card-body">
-                                <img src="/views/assets/img/icons/lineal/shopping-basket.svg"
-                                    class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                                <h4 class="card-title">Basic Plan</h4>
+                                <img width="100px"
+                                    src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1694469366/setecloud/Cloud_1_b6wurc.png"
+                                    class="text-primary mb-3" alt="" />
+                                <h4 class="card-title">Cloud 1</h4>
                                 <div class="prices text-dark">
-                                    <div class="price price-show"><span class="price-currency">$</span><span
-                                            class="price-value">9</span> <span class="price-duration">mo</span></div>
-                                    <div class="price price-hide price-hidden"><span
-                                            class="price-currency">$</span><span class="price-value">99</span> <span
-                                            class="price-duration">yr</span></div>
+                                    <div class="price price-show"><span class="price-currency">S/ </span><span
+                                            class="price-value">81.00</span> <span class="price-duration">mes</span>
+                                    </div>
+                                    <div class="price price-hide price-hidden"><span class="price-currency">S/
+                                        </span><span class="price-value">972.00</span> <span
+                                            class="price-duration">año</span></div>
                                 </div>
                                 <!--/.prices -->
                                 <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
-                                    <li><i class="uil uil-check"></i><span><strong>1</strong> Project </span></li>
-                                    <li><i class="uil uil-check"></i><span><strong>100K</strong> API Access </span></li>
-                                    <li><i class="uil uil-check"></i><span><strong>100MB</strong> Storage </span></li>
-                                    <li><i class="uil uil-times bullet-soft-red"></i><span> Weekly
-                                            <strong>Reports</strong> </span></li>
-                                    <li><i class="uil uil-times bullet-soft-red"></i><span> 7/24
-                                            <strong>Support</strong></span></li>
+                                    <li><i class="uil uil-check"></i><span><strong>01</strong> vCPU Intel Xeon</span>
+                                    </li>
+                                    <li><i class="uil uil-check"></i><span><strong>01 </strong> GB RAM</span>
+                                    </li>
+                                    <li><i class="uil uil-check bullet-soft-red"></i><span>50 GB SAN Raid 10 </span>
+                                    </li>
                                 </ul>
-                                <a href="#" class="btn btn-primary rounded-pill">Contactanos</a>
+                                <a href="https://wa.me/51942659045" class="btn btn-primary rounded-pill">Contratar</a>
+                            </div>
+                            <!--/.card-body -->
+                        </div>
+                        <!--/.pricing -->
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="pricing card text-center">
+                            <div class="card-body">
+                                <img width="100px"
+                                    src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1694469366/setecloud/Cloud_1_b6wurc.png"
+                                    class="text-primary mb-3" alt="" />
+                                <h4 class="card-title">Cloud 2</h4>
+                                <div class="prices text-dark">
+                                    <div class="price price-show"><span class="price-currency">S/ </span><span
+                                            class="price-value">99.00</span> <span class="price-duration">mes</span>
+                                    </div>
+                                    <div class="price price-hide price-hidden"><span class="price-currency">S/
+                                        </span><span class="price-value">1,188.00</span> <span
+                                            class="price-duration">año</span></div>
+                                </div>
+                                <!--/.prices -->
+                                <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
+                                    <li><i class="uil uil-check"></i><span><strong>01</strong> vCPU Intel Xeon</span>
+                                    </li>
+                                    <li><i class="uil uil-check"></i><span><strong>02 </strong> GB RAM</span>
+                                    </li>
+                                    <li><i class="uil uil-check bullet-soft-red"></i><span>50 GB SAN Raid 10 </span>
+                                    </li>
+                                </ul>
+                                <a href="https://wa.me/51942659045" class="btn btn-primary rounded-pill">Contratar</a>
+                            </div>
+                            <!--/.card-body -->
+                        </div>
+                        <!--/.pricing -->
+                    </div>
+                    <!--/column -->
+                    <!--/column -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="pricing card text-center">
+                            <div class="card-body">
+                                <img width="100px" height="80px"
+                                    src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1694469565/setecloud/Cloud_3_eevywe.png"
+                                    class="text-primary mb-3" alt="" />
+                                <h4 class="card-title">Cloud 3</h4>
+                                <div class="prices text-dark">
+                                    <div class="price price-show"><span class="price-currency">S/ </span><span
+                                            class="price-value">189.00</span> <span class="price-duration">mes</span>
+                                    </div>
+                                    <div class="price price-hide price-hidden"><span class="price-currency">S/
+                                        </span><span class="price-value">2,268.00</span> <span
+                                            class="price-duration">año</span></div>
+                                </div>
+                                <!--/.prices -->
+                                <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
+                                    <li><i class="uil uil-check"></i><span><strong>02</strong> vCPU Intel Xeon</span>
+                                    </li>
+                                    <li><i class="uil uil-check"></i><span><strong>04 </strong> GB RAM</span>
+                                    </li>
+                                    <li><i class="uil uil-check bullet-soft-red"></i><span>100 GB SAN Raid 10 </span>
+                                    </li>
+                                </ul>
+                                <a href="https://wa.me/51942659045" class="btn btn-primary rounded-pill">Contratar</a>
+                            </div>
+                            <!--/.card-body -->
+                        </div>
+                        <!--/.pricing -->
+                    </div>
+                    <!--/column -->
+                </div>
+                <div class="row gy-6 mt-3 mt-md-5">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="pricing card text-center">
+                            <div class="card-body">
+                                <img width="100px" height="80px"
+                                    src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1694469735/setecloud/Cloud_4_ygkhgv.png"
+                                    class="text-primary mb-3" alt="" />
+                                <h4 class="card-title">Cloud 4</h4>
+                                <div class="prices text-dark">
+                                    <div class="price price-show"><span class="price-currency">S/</span><span
+                                            class="price-value">369.00</span> <span class="price-duration">mes</span>
+                                    </div>
+                                    <div class="price price-hide price-hidden"><span
+                                            class="price-currency">S/</span><span class="price-value">4,428.00</span>
+                                        <span class="price-duration">año</span>
+                                    </div>
+                                </div>
+                                <!--/.prices -->
+                                <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
+                                    <li><i class="uil uil-check"></i><span><strong>02</strong> vCPU Intel Xeon</span>
+                                    </li>
+                                    <li><i class="uil uil-check"></i><span><strong>04 </strong> GB RAM</span>
+                                    </li>
+                                    <li><i class="uil uil-check bullet-soft-red"></i><span>200 GB SAN Raid 10 </span>
+                                    </li>
+                                </ul>
+                                <a href="https://wa.me/51942659045" class="btn btn-primary rounded-pill">Contratar</a>
                             </div>
                             <!--/.card-body -->
                         </div>
@@ -209,143 +350,59 @@
                     <div class="col-md-6 col-lg-4 popular">
                         <div class="pricing card text-center">
                             <div class="card-body">
-                                <img src="/views/assets/img/icons/lineal/home.svg"
-                                    class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                                <h4 class="card-title">Premium Plan</h4>
+                                <img width="100px" height="80px"
+                                    src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1694470020/setecloud/Cloud_5_ce1zib.png"
+                                    class="text-primary mb-3" alt="" />
+                                <h4 class="card-title">Cloud 5</h4>
                                 <div class="prices text-dark">
-                                    <div class="price price-show"><span class="price-currency">$</span><span
-                                            class="price-value">19</span> <span class="price-duration">mo</span></div>
+                                    <div class="price price-show"><span class="price-currency">S/</span><span
+                                            class="price-value">585.00</span> <span class="price-duration">mes</span>
+                                    </div>
                                     <div class="price price-hide price-hidden"><span
-                                            class="price-currency">$</span><span class="price-value">199</span> <span
-                                            class="price-duration">yr</span></div>
+                                            class="price-currency">S/</span><span class="price-value">7,020.00</span>
+                                        <span class="price-duration">año</span>
+                                    </div>
                                 </div>
                                 <!--/.prices -->
                                 <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
-                                    <li><i class="uil uil-check"></i><span><strong>5</strong> Projects </span></li>
-                                    <li><i class="uil uil-check"></i><span><strong>100K</strong> API Access </span></li>
-                                    <li><i class="uil uil-check"></i><span><strong>200MB</strong> Storage </span></li>
-                                    <li><i class="uil uil-check"></i><span> Weekly <strong>Reports</strong></span></li>
-                                    <li><i class="uil uil-times bullet-soft-red"></i><span> 7/24
-                                            <strong>Support</strong></span></li>
+                                    <li><i class="uil uil-check"></i><span><strong>06</strong> vCPU Intel Xeon</span>
+                                    </li>
+                                    <li><i class="uil uil-check"></i><span><strong>12 </strong> GB RAM</span>
+                                    </li>
+                                    <li><i class="uil uil-check bullet-soft-red"></i><span>400 GB SAN Raid 10 </span>
+                                    </li>
                                 </ul>
-                                <a href="#" class="btn btn-primary rounded-pill">Contactanos</a>
+                                <a href="https://wa.me/51942659045" class="btn btn-primary rounded-pill">Contratar</a>
                             </div>
                             <!--/.card-body -->
                         </div>
                         <!--/.pricing -->
                     </div>
-                    <!--/column -->
-                    <div class="col-md-6 offset-md-3 col-lg-4 offset-lg-0">
-                        <div class="pricing card text-center">
-                            <div class="card-body">
-                                <img src="/views/assets/img/icons/lineal/briefcase-2.svg"
-                                    class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                                <h4 class="card-title">Corporate Plan</h4>
-                                <div class="prices text-dark">
-                                    <div class="price price-show"><span class="price-currency">$</span><span
-                                            class="price-value">49</span> <span class="price-duration">mo</span></div>
-                                    <div class="price price-hide price-hidden"><span
-                                            class="price-currency">$</span><span class="price-value">499</span> <span
-                                            class="price-duration">yr</span></div>
-                                </div>
-                                <!--/.prices -->
-                                <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
-                                    <li><i class="uil uil-check"></i><span><strong>20</strong> Projects </span></li>
-                                    <li><i class="uil uil-check"></i><span><strong>300K</strong> API Access </span></li>
-                                    <li><i class="uil uil-check"></i><span><strong>500MB</strong> Storage </span></li>
-                                    <li><i class="uil uil-check"></i><span> Weekly <strong>Reports</strong></span></li>
-                                    <li><i class="uil uil-check"></i><span> 7/24 <strong>Support</strong></span></li>
-                                </ul>
-                                <a href="#" class="btn btn-primary rounded-pill">Contactanos</a>
-                            </div>
-                            <!--/.card-body -->
-                        </div>
-                        <!--/.pricing -->
-                    </div>
-                    <!--/column -->
-                </div>
-                <div class="row gy-6 mt-3 mt-md-5">
                     <div class="col-md-6 col-lg-4">
                         <div class="pricing card text-center">
                             <div class="card-body">
-                                <img src="/views/assets/img/icons/lineal/shopping-basket.svg"
-                                    class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                                <h4 class="card-title">Basic Plan</h4>
+                                <img width="100px" height="80px"
+                                    src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1694470184/setecloud/Cloud_6_vkkfdg.png"
+                                    class="text-primary mb-3" alt="" />
+                                <h4 class="card-title">Cloud 6</h4>
                                 <div class="prices text-dark">
-                                    <div class="price price-show"><span class="price-currency">$</span><span
-                                            class="price-value">9</span> <span class="price-duration">mo</span></div>
-                                    <div class="price price-hide price-hidden"><span
-                                            class="price-currency">$</span><span class="price-value">99</span> <span
-                                            class="price-duration">yr</span></div>
+                                    <div class="price price-show"><span class="price-currency">S/ </span><span
+                                            class="price-value">765.00</span> <span class="price-duration">mes</span>
+                                    </div>
+                                    <div class="price price-hide price-hidden"><span class="price-currency">S/
+                                        </span><span class="price-value">9,180.00</span> <span
+                                            class="price-duration">año</span></div>
                                 </div>
                                 <!--/.prices -->
                                 <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
-                                    <li><i class="uil uil-check"></i><span><strong>1</strong> Project </span></li>
-                                    <li><i class="uil uil-check"></i><span><strong>100K</strong> API Access </span></li>
-                                    <li><i class="uil uil-check"></i><span><strong>100MB</strong> Storage </span></li>
-                                    <li><i class="uil uil-times bullet-soft-red"></i><span> Weekly
-                                            <strong>Reports</strong> </span></li>
-                                    <li><i class="uil uil-times bullet-soft-red"></i><span> 7/24
-                                            <strong>Support</strong></span></li>
+                                    <li><i class="uil uil-check"></i><span><strong>08</strong> vCPU Intel Xeon</span>
+                                    </li>
+                                    <li><i class="uil uil-check"></i><span><strong>16 </strong> GB RAM</span>
+                                    </li>
+                                    <li><i class="uil uil-check bullet-soft-red"></i><span>500 GB SAN Raid 10 </span>
+                                    </li>
                                 </ul>
-                                <a href="#" class="btn btn-primary rounded-pill">Contactanos</a>
-                            </div>
-                            <!--/.card-body -->
-                        </div>
-                        <!--/.pricing -->
-                    </div>
-                    <!--/column -->
-                    <div class="col-md-6 col-lg-4 popular">
-                        <div class="pricing card text-center">
-                            <div class="card-body">
-                                <img src="/views/assets/img/icons/lineal/home.svg"
-                                    class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                                <h4 class="card-title">Premium Plan</h4>
-                                <div class="prices text-dark">
-                                    <div class="price price-show"><span class="price-currency">$</span><span
-                                            class="price-value">19</span> <span class="price-duration">mo</span></div>
-                                    <div class="price price-hide price-hidden"><span
-                                            class="price-currency">$</span><span class="price-value">199</span> <span
-                                            class="price-duration">yr</span></div>
-                                </div>
-                                <!--/.prices -->
-                                <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
-                                    <li><i class="uil uil-check"></i><span><strong>5</strong> Projects </span></li>
-                                    <li><i class="uil uil-check"></i><span><strong>100K</strong> API Access </span></li>
-                                    <li><i class="uil uil-check"></i><span><strong>200MB</strong> Storage </span></li>
-                                    <li><i class="uil uil-check"></i><span> Weekly <strong>Reports</strong></span></li>
-                                    <li><i class="uil uil-times bullet-soft-red"></i><span> 7/24
-                                            <strong>Support</strong></span></li>
-                                </ul>
-                                <a href="#" class="btn btn-primary rounded-pill">Contactanos</a>
-                            </div>
-                            <!--/.card-body -->
-                        </div>
-                        <!--/.pricing -->
-                    </div>
-                    <!--/column -->
-                    <div class="col-md-6 offset-md-3 col-lg-4 offset-lg-0">
-                        <div class="pricing card text-center">
-                            <div class="card-body">
-                                <img src="/views/assets/img/icons/lineal/briefcase-2.svg"
-                                    class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                                <h4 class="card-title">Corporate Plan</h4>
-                                <div class="prices text-dark">
-                                    <div class="price price-show"><span class="price-currency">$</span><span
-                                            class="price-value">49</span> <span class="price-duration">mo</span></div>
-                                    <div class="price price-hide price-hidden"><span
-                                            class="price-currency">$</span><span class="price-value">499</span> <span
-                                            class="price-duration">yr</span></div>
-                                </div>
-                                <!--/.prices -->
-                                <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
-                                    <li><i class="uil uil-check"></i><span><strong>20</strong> Projects </span></li>
-                                    <li><i class="uil uil-check"></i><span><strong>300K</strong> API Access </span></li>
-                                    <li><i class="uil uil-check"></i><span><strong>500MB</strong> Storage </span></li>
-                                    <li><i class="uil uil-check"></i><span> Weekly <strong>Reports</strong></span></li>
-                                    <li><i class="uil uil-check"></i><span> 7/24 <strong>Support</strong></span></li>
-                                </ul>
-                                <a href="#" class="btn btn-primary rounded-pill">Contactanos</a>
+                                <a href="https://wa.me/51942659045" class="btn btn-primary rounded-pill">Contratar</a>
                             </div>
                             <!--/.card-body -->
                         </div>
@@ -355,6 +412,7 @@
                 </div>
                 <!--/.row -->
             </div>
+            <p>* Los precios no incluyen impuestos.</p>
             <!--/.pricing-wrapper -->
         </div>
         <!-- /.container -->
@@ -369,7 +427,7 @@
 
     <section class="wrapper container my-15">
         <h2 class="fs-16 text-uppercase text-line text-primary mb-3">Información adicional</h2>
-        <p>Características y especificaciones técnicas de las tecnologías usadas en nuestros servidores dedicados.</p>
+        <p>Características y detalles técnicos de las tecnologías que potencian nuestros servidores dedicados.</p>
         <ul class="nav nav-tabs nav-pills">
             <li class="nav-item">
                 <a class="nav-link active" data-bs-toggle="tab" href="#tab3-1">
@@ -399,24 +457,28 @@
                     <div class="col-md-6">
                         <div class="d-flex align-items-center gap-5">
                             <img width="64" height="64"
-                                src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1691805142/setecloud/servidores/proteccion_sxrfj0.png"
+                                src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1694471057/setecloud/Ima09_nagqvy.png"
                                 alt="">
                             <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                                <li><i class="uil uil-check"></i>Upgrades flexibles e inmediatos</li>
-                                <li><i class="uil uil-check"></i>Despliegue inicial en 24 horas</li>
-                                <li><i class="uil uil-check"></i>Configuración inicial de software base</li>
+                                <li><i class="uil uil-check"></i>Escalabilidad inmediata a los upgrades solicitados
+                                </li>
+                                <li><i class="uil uil-check"></i>Despliegue inicial completado en 24 horas</li>
+                                <li><i class="uil uil-check"></i>Establecemos la configuración inicial del software base
+                                </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="d-flex align-items-center gap-5">
                             <img width="64" height="64"
-                                src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1691805648/setecloud/servidores/panel_ra6y1t.png"
+                                src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1694471177/setecloud/Ima10_la1nwn.png"
                                 alt="">
                             <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                                <li><i class="uil uil-check"></i>Direcciones IP nacionales (públicas dedicadas)</li>
-                                <li><i class="uil uil-check"></i>Interfaz gráfica de gestión y estadísticas</li>
-                                <li><i class="uil uil-check"></i>Opción de reinicio y reinstalación de SO remoto</li>
+                                <li><i class="uil uil-check"></i>Acceso total con privilegios de root / administrador
+                                </li>
+                                <li><i class="uil uil-check"></i>Sistemas operativos Windows o Linux, para una
+                                    configuración preferida</li>
+                                <li><i class="uil uil-check"></i>Supervisión activa de red avanzada</li>
                             </ul>
                         </div>
                     </div>
@@ -425,24 +487,28 @@
                     <div class="col-md-6 col-sm-12">
                         <div class="d-flex align-items-center gap-5">
                             <img width="64" height="64"
-                                src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1691805773/setecloud/servidores/backups_ojjahd.png"
+                                src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1694472013/setecloud/Ima11_hjym5m.png"
                                 alt="">
                             <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                                <li><i class="uil uil-check"></i>Acceso total (root / administrador)</li>
-                                <li><i class="uil uil-check"></i>Sistemas operativos Windows o Linux</li>
-                                <li><i class="uil uil-check"></i>Monitoreo de red proactivo</li>
+                                <li><i class="uil uil-check"></i>Direcciones IP Nacionales – Publicas dedicadas</li>
+                                <li><i class="uil uil-check"></i>Interfaz grafica de gestión y estadística</li>
+                                <li><i class="uil uil-check"></i>Reinicio y reinstalación sin complicaciones del
+                                    Sistema Operativo</li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <div class="d-flex align-items-center gap-5">
                             <img width="64" height="64"
-                                src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1691805795/setecloud/servidores/soporte_vszikd.png"
+                                src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1694472118/setecloud/Ima12_iycrkg.png"
                                 alt="">
                             <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                                <li><i class="uil uil-check"></i>Respaldos Continuos *</li>
-                                <li><i class="uil uil-check"></i>Gestión Asistida *</li>
-                                <li><i class="uil uil-check"></i>Atención vía correo-e, chat y telefono</li>
+                                <li><i class="uil uil-check"></i>Respaldos continuos para que tus datos estén
+                                    protegidos.</li>
+                                <li><i class="uil uil-check"></i>Gestion asistida por personal altamente capacitado de
+                                    TI</li>
+                                <li><i class="uil uil-check"></i>Comunicación completa vía correo, chat y teléfono
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -459,7 +525,7 @@
                 }
             </style>
             <!--/.tab-pane -->
-            <div class="tab-pane fade" id="tab3-2">
+            <div class="tab-pane fade table-bordered" id="tab3-2">
                 <p>Infraestructura y componentes de Red:</p>
                 <table class="table table1 table-striped">
                     <tbody>
@@ -539,7 +605,7 @@
                 <p class="text" style="margin-top:20px;">El cliente puede auto gestionar su servidor u optar por
                     nuestros servicios de gestión asistida:</p>
                 <div class="tableWrapper" style="margin-top:15px;">
-                    <table cellspacing="0" cellpadding="0" class="table table-striped">
+                    <table cellspacing="0" cellpadding="0" class="table table-bordered">
                         <tr class="alternate">
                             <th class="textCenter" width="27%">&nbsp;</th>
                             <th class="textCenter" width="35%"><strong>AUTO GESTIONADO</strong></th>

@@ -121,7 +121,7 @@ if (isIPBlocked(getClientIP())) {
             } else {
                 // Si todos los campos están presentes, construimos el correo y lo enviamos
                 $to = "ventas@ceotec.pe";
-                $subject = "Contacto de " . $data["nombre"] . " " . $data["apellido"] . ". Número de Teléfono:" . $data["phone"];
+                $subject = "Contacto de " . $data["nombre"] . " " . $data["apellido"] . ". Numero de Telefono:" . $data["phone"];
                 $message = $data["mensaje"];
 
                 // Enviamos el correo y verificamos si se envió con éxito
