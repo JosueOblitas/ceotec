@@ -149,8 +149,8 @@
                             </td>
                             <td>
                             <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
-                                    <li class="ps-1"><i class="uil uil-times bullet-soft-red"></i> Almacenamiento en discos locales sin redundancia</li>
-                                    <li class="ps-1"><i class="uil uil-times bullet-soft-red"></i> Expuestos a perdida de información</li>
+                                    <li><i class="uil uil-times bullet-soft-red"></i> Almacenamiento en discos locales sin redundancia</li>
+                                    <li><i class="uil uil-times bullet-soft-red"></i> Expuestos a perdida de información</li>
                                 </ul>
                             </td>
                         </tr>
@@ -164,9 +164,9 @@
                             </td>
                             <td>
                             <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
-                                    <li class="ps-1"><i class="uil uil-times bullet-soft-red"></i> IPs reutilizadas</li>
-                                    <li class="ps-1"><i class="uil uil-times bullet-soft-red"></i> IPs en lista negra</li>
-                                    <li class="ps-1"><i class="uil uil-times bullet-soft-red"></i> No tienen control sobre las IPs</li>
+                                    <li><i class="uil uil-times bullet-soft-red"></i> IPs reutilizadas</li>
+                                    <li><i class="uil uil-times bullet-soft-red"></i> IPs en lista negra</li>
+                                    <li><i class="uil uil-times bullet-soft-red"></i> No tienen control sobre las IPs</li>
                                 </ul>
                             </td>
                         </tr>
@@ -181,9 +181,9 @@
                             </td>
                             <td>
                             <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
-                                    <li class="ps-1"><i class="uil uil-times bullet-soft-red"></i> Tercerizado</li>
-                                    <li class="ps-1"><i class="uil uil-times bullet-soft-red"></i> Cuentan con 1 solo nivel de atención</li>
-                                    <li class="ps-1">- Demora en la respuesta</li>
+                                    <li><i class="uil uil-times bullet-soft-red"></i> Tercerizado</li>
+                                    <li><i class="uil uil-times bullet-soft-red"></i> Cuentan con 1 solo nivel de atención</li>
+                                    <li>- Demora en la respuesta</li>
                                 </ul>
                             </td>
                         </tr>

@@ -44,7 +44,7 @@
                 <div class="col-lg-7 mt-md-15" data-cues="slideInDown" data-group="page-title" data-delay="600">
                     <h1 class="display-1 text-white mb-2">Potencia el crecimiento de tu empresa con nuestros servicios
                         en la nube<br /><span class="typer text-red text-nowrap" data-delay="100"
-                            data-words="Con tecnología de punta, Con precios accesibles, Con soporte garantizado  en Perú, Con recursos escalables."></span><span
+                            data-words="Con tecnología de punta, Con precios accesibles, Con soporte local 24/7, Con recursos escalables."></span><span
                             class="cursor text-red" data-owner="typer"></span></h1>
                     <p class="lead fs-md-24 lh-sm text-white mb-7 pe-md-18 pe-lg-0 pe-xxl-15">
                         Obtén nuestros servicios de alto rendimiento, para impulsar tu negocio desde S/81.00 + IGV al
