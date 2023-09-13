@@ -51,13 +51,19 @@
 
     <section class="wrapper bg-light">
         <div class="container py-7 pb-md-15">
-            <div class="row gy-6">
+            <div class="row gy-6 d-flex align-items-center">
                 <div class="col-lg-4">
                     <h2 class="display-4 mt-lg-18 mb-3">La solución perfecta para tu comunicación empresarial</h2>
-                    <p class="lead fs-lg">We offer <span class="underline">great prices</span>, premium and quality
-                        products for your business.</p>
-                    <p>Enjoy a <a href="#" class="hover">free 30-day trial</a> and experience the full service. No
-                        credit card required!</p>
+                    <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
+                        <li><i class="uil uil-check"></i> Edición instantánea: mejora tu flujo de trabajo editando documentos en tu bandeja.</li>
+                        <li><i class="uil uil-check"></i> Conéctate con tus colegas en segundos: inicia chats y video llamadas directamente.</li>
+                        <li><i class="uil uil-check"></i> Tu espacio de intercambio seguro: comparte archivos desde tu drive personal con total confianza.</li>
+                        <li><i class="uil uil-check"></i> Colabora de manera integral: comparte tu calendario y contacto para una gestión coordinada.</li>
+                        <li><i class="uil uil-check"></i> Acceso sin límites: instala las apps para Android o iOS y mantente conectado desde cualquier lugar.
+                        </li>
+                        <li><i class="uil uil-check"></i> Tu correo en tus aplicaciones favoritas: utiliza tu correo en MS Outlook y herramientas similares.
+                        </li>
+                    </ul>
                 </div>
                 <!--/column -->
                 <div class="col-lg-7 offset-lg-1 pricing-wrapper">

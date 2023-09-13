@@ -31,7 +31,7 @@
                         <div class="col-md-6">
                             <div class="form-floating mb-4">
                                 <input id="form_name" type="text" name="nombre" class="form-control" placeholder="Jane">
-                                <label for="form_name">Nompre *</label>
+                                <label for="form_name">Nombre *</label>
                             </div>
                         </div>
                         <!-- /column -->
