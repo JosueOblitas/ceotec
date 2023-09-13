@@ -4,10 +4,10 @@
             Hablemos de tu requerimiento</h2>
         <p style="font-size: 20px;position: relative;vertical-align: top;color: #000;" class="pb-4">
             Nuestro equipo de ventas estará atento a tu mensaje</p>
-        <div class="row gy-10 gx-lg-8 gx-xl-12 align-items-center">
+        <div class="row gy-10 gx-lg-8 gx-xl-12 align-items-start">
             <!--/column -->
             <div class="col-lg-7 position-relative">
-                <img width="400px" class="d-flex mx-auto mb-5"
+                <img width="600px" class="d-flex mx-auto mb-5"
                     src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1694442893/setecloud/Ima06_sin_fondo_vfmgxp.png"
                     alt="">
                 <div class="row d-flex align-items-center">
@@ -70,12 +70,14 @@
                             <input type="submit" class="btn btn-primary rounded-pill btn-send mb-3"
                                 value="Enviar Mensaje">
                             <div class="d-flex align-items-center gap-2 mt-3">
-                                <p class="text-muted"><strong></strong>
+                                <p class=""><strong>
                                     <i class="fa-solid fa-phone"></i> (01)
                                     304 2190
+                                    </strong>
                                 </p>
-                                <p class="text-muted"><strong></strong>
+                                <p class=""><strong>
                                     <i class="fa-solid fa-envelope"></i> ventas@ceotec.pe
+                                    </strong>
                                 </p>
                             </div>
                         </div>

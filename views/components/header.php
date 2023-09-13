@@ -65,7 +65,7 @@
             <div class="container flex-lg-row py-md-3 flex-nowrap align-items-center">
                 <div class="navbar-brand w-100 my-auto">
                     <a href="/">
-                        <img src="https://res.cloudinary.com/dwipjtlpj/image/upload/c_thumb,w_1598,h_550,g_auto/v1691810066/setecloud/1_trwjzz.png"
+                        <img src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1694634071/1_pusdrd.png"
                             width="320" alt="" />
                     </a>
                 </div>

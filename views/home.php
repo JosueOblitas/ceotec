@@ -39,12 +39,12 @@
 
     <!-- /header -->
     <section class="wrapper bg-dark angled lower-start py-5">
-        <div class="container py-md-15 pt-md-11 pb-8">
+        <div class="container pb-md-15 pb-8">
             <div class="row d-flex align-items-center">
                 <div class="col-lg-7 mt-md-15" data-cues="slideInDown" data-group="page-title" data-delay="600">
-                    <h1 class="display-1 text-white mb-4">Potencia el crecimiento de tu empresa con nuestros servicios
+                    <h1 class="display-1 text-white mb-2">Potencia el crecimiento de tu empresa con nuestros servicios
                         en la nube<br /><span class="typer text-red text-nowrap" data-delay="100"
-                            data-words="Con tecnología de punta, Con precios accesibles, Con soporte garantizado en Perú, Con recursos escalables."></span><span
+                            data-words="Con tecnología de punta, Con precios accesibles, Con soporte garantizado <?= "<br />" ?> en Perú, Con recursos escalables."></span><span
                             class="cursor text-red" data-owner="typer"></span></h1>
                     <p class="lead fs-md-24 lh-sm text-white mb-7 pe-md-18 pe-lg-0 pe-xxl-15">
                         Obtén nuestros servicios de alto rendimiento, para impulsar tu negocio desde S/81.00 + IGV al
@@ -76,7 +76,7 @@
         <div class="container pt-md-10 pb-16 pb-md-10 mt-5">
             <div class="row">
                 <div class="col-lg-12 col-xl-12 col-xxl-6">
-                    <h2 class="fs-32 text-uppercase text-line text-red mb-1">¿CÓMO EMPEZAR?</h2>
+                    <h2 class="fs-32 text-uppercase text-red mb-1" style="position: relative;vertical-align: top;">¿CÓMO EMPEZAR?</h2>
                     <p style="font-size: 20px;position: relative;vertical-align: top;" class="mb-9">Comunícate con
                         nosotros, para
                         asesorarte a
@@ -88,7 +88,7 @@
                 <!-- /column -->
             </div>
             <!-- /.row -->
-            <div class="row gx-md-8 gy-8 mb-14 mb-md-18">
+            <div class="row gx-md-8 gy-8">
                 <div class="col-12 col-md-6 text-center aling-items-center">
                     <img style="width: 100px;"
                         src="https://res.cloudinary.com/dwipjtlpj/image/upload//c_thumb,w_260,h_400,g_auto/v1693022230/setecloud/Ima02_rafzee.png"
@@ -110,6 +110,13 @@
                 </div>
             </div>
             <!--/.row -->
+            <div class="d-flex flex-column text-center mb-16 mt-4">
+            <img style="width: 170px;"
+                        src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1694634721/Imagen_para_instituciones_estatales_w5gj2h.png"
+                        alt="" class="py-3 mx-auto">
+                    <h4>Servicios para Instituciones Estatales</h4>
+                    <p class="mb-3 w-50 mx-auto">Dirigido a Instituciones del estado que desean renovar, complementar y/o mejorar su infraestructura actual.</p>
+            </div>
             <div class="row d-flex justify-content-between">
                 <div class=" col-12 col-lg-5 order-lg-2">
                     <!-- <div class="shape rounded-circle bg-line primary rellax w-18 h-18" data-rellax-speed="1"
@@ -217,17 +224,17 @@
                     <div class="row align-items-center counter-wrapper gy-6 text-center">
                         <div class="col-md-4">
                             <h3 class="counter counter-lg">2000+</h3>
-                            <p>Proyectos Completados</p>
+                            <p>Servicios en la nube desplegados</p>
                         </div>
                         <!--/column -->
                         <div class="col-md-4">
                             <h3 class="counter counter-lg">3500+</h3>
-                            <p>Clientes Felices</p>
+                            <p>Clientes satisfechos</p>
                         </div>
                         <!--/column -->
                         <div class="col-md-4">
                             <h3 class="counter counter-lg">12000+</h3>
-                            <p>Respuestas de soporte</p>
+                            <p>Tickets de soporte solucionados</p>
                         </div>
                         <!--/column -->
                     </div>
@@ -249,7 +256,7 @@
                         alt="">
                 </div>
                 <div class="col-12 col-lg-6 py-4 py-lg-0">
-                    <p>Nuestro socio tecnológico, cuenta con presencia en 3 centros de datos a nivel mundial, 1 en Perú
+                    <p>Nuestro socio tecnológico HostingLabs, cuenta con presencia en 3 centros de datos a nivel mundial, 1 en Perú
                         y 2 en Estados Unidos, donde contamos con:</p>
 
                     <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">

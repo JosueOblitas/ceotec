@@ -2,13 +2,13 @@
 <footer class="footer-bg-dark">
     <div class="container pt-10 pt-md-10 pb-13 pb-md-5">
         <div class="row gy-6 gy-lg-0">
-            <div class="col-md-4 col-lg-6">
-                <div class="widget" style="font-size: 12px;">
+            <div class="col-md-4 col-lg-8">
+                <div class="widget" style="font-size: 15px;">
                     <img class="mb-4" width="200"
                         src="https://res.cloudinary.com/dwipjtlpj/image/upload/c_thumb,w_1598,h_550,g_auto/v1691810066/setecloud/1_trwjzz.png"
                         srcset="https://res.cloudinary.com/dwipjtlpj/image/upload/c_thumb,w_1598,h_550,g_auto/v1691810066/setecloud/1_trwjzz.png"
                         alt="" />
-                    <p>
+                    <p class="text-white">
                         Ceotec junto con nuestro socio tecnológico Hosting Labs, comprendemos que cada proyecto en línea
                         es único. Por eso, ofrecemos una gama completa de servicios de alojamiento en internet que se
                         adaptan a tus necesidades específicas. Desde el alojamiento web estándar hasta soluciones de
@@ -34,18 +34,14 @@
             <!-- /column -->
             <div class="col-md-4 col-lg-2">
                 <div class="widget">
-                    <h4 class="widget-title text-primary mb-3">Servidores Cloud</h4>
-                    <a href="/servidores" class="text-white">Servidores Virtuales Cloud</a>
-                </div>
-                <!-- /.widget -->
-            </div>
-            <!-- /column -->
-            <div class="col-md-4 col-lg-2">
-                <div class="widget">
                     <h4 class="widget-title text-primary mb-3">Hosting Web</h4>
                     <ul class="list-unstyled  mb-0">
                         <li> <a href="/hosting-web" class="text-white">Plan de Hosting cPanel</a></li>
                     </ul>
+                </div>
+                <div class="widget">
+                    <h4 class="widget-title text-primary mb-3">Servidores Cloud</h4>
+                    <a href="/servidores" class="text-white">Servidores Virtuales Cloud</a>
                 </div>
                 <!-- /.widget -->
             </div>

@@ -27,7 +27,7 @@
 
     <!-- /header -->
     <section class="wrapper bg-dark lower-start py-5">
-        <div class="container py-md-15 pt-md-11 pb-8">
+        <div class="container pb-md-15 pb-8">
             <div class="row d-flex align-items-center">
                 <div class="col-12 col-lg-7 mt-md-15" data-cues="slideInDown" data-group="page-title" data-delay="600">
                     <h1 class="display-1 text-white mb-4">Servidores virtuales cloud</h1>
@@ -99,18 +99,18 @@
                         <tr>
                             <th class="w-25"></th>
                             <th>
-                                <div class="h4 mb-1">Ceotec y HostingLabs </div>
+                                <div class="h4 mb-1 text-start">Ceotec y HostingLabs </div>
                             </th>
                             <th>
-                                <div class="h4 mb-1">Otros</div>
+                                <div class="h4 mb-1 text-start">Otros</div>
                             </th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td class="option text-start">Infraestructura</td>
-                            <td class="">
-                                <div class="mb-3"> <i
+                            <td >
+                                <!-- <div class="mb-3"> <i
                                         class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i>
                                     Equipamiento
                                     propio </div>
@@ -122,62 +122,69 @@
                                     Conectividad Cisco</div>
                                 <div class="mb-3"><i
                                         class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i>
-                                    Seguridad Fortinet</div>
+                                    Seguridad Fortinet</div> -->
+
+                                    <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
+                                        <li><i class="uil uil-check"></i> Equipamiento propio</li>
+                                        <li><i class="uil uil-check"></i> Servidores HPE</li>
+                                        <li><i class="uil uil-check"></i> Conectividad Cisco</li>
+                                        <li><i class="uil uil-check"></i> Seguridad Fortinet</li>
+                                    </ul>
                             </td>
-                            <td>
-                                <p>- No tienen</p>
-                                <p>- Revenden servicios del extranjero</p>
-                                <p>- Pésima calidad en sus servicios</p>
+                            <td >
+                                <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
+                                    <li class="ps-1">- No tienen</li>
+                                    <li class="ps-1">- Revenden servicios del extranjero</li>
+                                    <li class="ps-1">- Pésima calidad en sus servicios</li>
+                                </ul>
                             </td>
                         </tr>
                         <tr>
                             <td class="option text-start">Almacenamiento</td>
                             <td>
-                                <div class="mb-3"> <i
-                                        class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i>
-                                    Arquitectura de almacenamiento CEPH (Distribuido & Redundante) </div>
-                                <div class="mb-3"><i
-                                        class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i>
-                                    Expuestos a perdida de información</div>
+                                    <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
+                                        <li><i class="uil uil-check"></i> Arquitectura de almacenamiento CEPH (Distribuido & Redundante)</li>
+                                        <li><i class="uil uil-check"></i> Expuestos a perdida de información</li>
+                                    </ul>
                             </td>
                             <td>
-                                <p>- Almacenamiento en discos locales sin redundancia</p>
-                                <p>- Expuestos a perdida de información</p>
+                            <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
+                                    <li class="ps-1">- Almacenamiento en discos locales sin redundancia</li>
+                                    <li class="ps-1">- Expuestos a perdida de información</li>
+                                </ul>
                             </td>
                         </tr>
                         <tr>
                             <td class="option text-start">Direcciones IP</td>
                             <td>
-                                <div class="mb-3"> <i
-                                        class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i>
-                                    IPs propias</div>
-                                <div class="mb-3"><i
-                                        class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i>
-                                    Miembros de ARIN & LACNIC</div>
+                            <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
+                                <li><i class="uil uil-check"></i> IPs propias</li>
+                                <li><i class="uil uil-check"></i> Miembros de ARIN & LACNIC</li>
+                            </ul>
                             </td>
                             <td>
-                                <p>- IPs reutilizadas</p>
-                                <p>- IPs en lista negra</p>
-                                <p>- No tienen control sobre las IPs</p>
+                            <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
+                                    <li class="ps-1">- IPs reutilizadas</li>
+                                    <li class="ps-1">- IPs en lista negra</li>
+                                    <li class="ps-1">- No tienen control sobre las IPs</li>
+                                </ul>
                             </td>
                         </tr>
                         <tr>
                             <td class="option text-start">Asistencia Técnica</td>
                             <td>
-                                <div class="mb-3"> <i
-                                        class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i>
-                                    Personal altamente capacitado</div>
-                                <div class="mb-3"><i
-                                        class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i>
-                                    Cuentan con certificación cPanel, Linux y Windows Server</div>
-                                <div class="mb-3"><i
-                                        class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i>
-                                    Soporte en idioma español</div>
+                            <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
+                                <li><i class="uil uil-check"></i> Personal altamente capacitado</li>
+                                <li><i class="uil uil-check"></i> Cuentan con certificación cPanel, Linux y Windows Server</li>
+                                <li><i class="uil uil-check"></i> Soporte en idioma español</li>
+                            </ul>
                             </td>
                             <td>
-                                <p>- Tercerizado</p>
-                                <p>- Cuentan con 1 solo nivel de atención</p>
-                                <p>- Demora en la respuesta</p>
+                            <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
+                                    <li class="ps-1">- Tercerizado</li>
+                                    <li class="ps-1">- Cuentan con 1 solo nivel de atención</li>
+                                    <li class="ps-1">- Demora en la respuesta</li>
+                                </ul>
                             </td>
                         </tr>
                     </tbody>
