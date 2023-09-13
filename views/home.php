@@ -148,7 +148,7 @@
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample">
                                 <div class="card-body">
-                                    <p> Nuestra prioridad es tu éxito en línea. Con nuestros servicios puedes contar con
+                                    <p  style="text-align: justify;"> Nuestra prioridad es tu éxito en línea. Con nuestros servicios puedes contar con
                                         un alto rendimiento de vanguardia, que impulsa la velocidad y la eficiencia de
                                         tus operaciones. Además, nuestra arquitectura avanzada garantiza una
                                         disponibilidad sólida para mantener tu negocio siempre en línea.</p>
@@ -168,7 +168,7 @@
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="#accordionExample">
                                 <div class="card-body">
-                                    <p>No importa cuán complejas sean tus necesidades, nuestros servicios en la nube
+                                    <p  style="text-align: justify;">No importa cuán complejas sean tus necesidades, nuestros servicios en la nube
                                         están diseñados para adaptarse a cada desafío. Ofrecemos una gama de opciones,
                                         garantizando que puedas ajustar tus recursos y configuraciones a medida que tu
                                         negocio crece.</p>
@@ -188,7 +188,7 @@
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                 data-bs-parent="#accordionExample">
                                 <div class="card-body">
-                                    <p>Tu tranquilidad es nuestra prioridad. Nuestros servicios en la nube no solo
+                                    <p  style="text-align: justify;">Tu tranquilidad es nuestra prioridad. Nuestros servicios en la nube no solo
                                         ofrecen soluciones avanzadas, sino también un equipo de soporte técnico
                                         especializado y listo para ayudarte en crecimiento que tengas. Con una amplia
                                         experiencia y expertos en servicios en la nube, puedes confiar en que recibirás
