@@ -8,7 +8,7 @@
                         src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1694634071/1_pusdrd.png"
                         srcset="https://res.cloudinary.com/dwipjtlpj/image/upload/v1694634071/1_pusdrd.png"
                         alt="" />
-                    <p class="text-white">
+                    <p class="text-white" style="text-align: justify;">
                         Ceotec junto con nuestro socio tecnológico Hosting Labs, comprendemos que cada proyecto en línea
                         es único. Por eso, ofrecemos una gama completa de servicios de alojamiento en internet que se
                         adaptan a tus necesidades específicas. Desde el alojamiento web estándar hasta soluciones de
