@@ -5,8 +5,8 @@
             <div class="col-md-4 col-lg-8">
                 <div class="widget" style="font-size: 15px;">
                     <img class="mb-4" width="200"
-                        src="https://res.cloudinary.com/dwipjtlpj/image/upload/c_thumb,w_1598,h_550,g_auto/v1691810066/setecloud/1_trwjzz.png"
-                        srcset="https://res.cloudinary.com/dwipjtlpj/image/upload/c_thumb,w_1598,h_550,g_auto/v1691810066/setecloud/1_trwjzz.png"
+                        src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1694634071/1_pusdrd.png"
+                        srcset="https://res.cloudinary.com/dwipjtlpj/image/upload/v1694634071/1_pusdrd.png"
                         alt="" />
                     <p class="text-white">
                         Ceotec junto con nuestro socio tecnológico Hosting Labs, comprendemos que cada proyecto en línea
