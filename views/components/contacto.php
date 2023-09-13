@@ -7,8 +7,8 @@
         <div class="row gy-10 gx-lg-8 gx-xl-12 align-items-start">
             <!--/column -->
             <div class="col-lg-7 position-relative">
-                <img width="600px" class="d-flex mx-auto mb-5"
-                    src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1694442893/setecloud/Ima06_sin_fondo_vfmgxp.png"
+                <img width="400px" class="d-flex mx-auto mb-5"
+                    src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1694639335/Contactanos_1_biblhg.png"
                     alt="">
                 <div class="row d-flex align-items-center">
                     <div class="col-md-6">
@@ -52,7 +52,7 @@
                         </div>
                         <div class="col-md-12">
                             <div class="form-floating mb-4">
-                                <input id="phone" type="text" name="phone" class="form-control"
+                                <input id="phone" type="text" pattern="[789][0-9]{9} name="phone" class="form-control"
                                     placeholder="jane.doe@example.com">
                                 <label for="phone">Telefono *</label>
                             </div>

@@ -72,49 +72,45 @@
     <?php require_once('components/header.php') ?>
 
     <section class="wrapper">
-        <div class="pt-10 pb-9 pt-md-14 pb-md-11 text-center bg-dark text-white">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-10 col-lg-10 col-xl-10 mx-auto">
-                        <div class="post-header">
-                            <div class="post-category text-line">
-                                <a href="#" class="hover" rel="category">CEOTEC</a>
-                            </div>
-                            <!-- /.post-category -->
-                            <h1 class="display-1 mb-3 text-white">Plan de Hosting cPanel</h1>
-                            <p class="lead px-md-5 px-lg-5 px-xl-5 px-xxl-5"> </p>
-                        </div>
-                        <!-- /.post-header -->
-                    </div>
-                    <!-- /column -->
+    <!-- /header -->
+    <section class="wrapper bg-dark lower-start py-5">
+        <div class="container pb-md-15 pb-8">
+            <div class="row d-flex align-items-center">
+                <div class="col-12 col-lg-7 mt-md-15" data-cues="slideInDown" data-group="page-title" data-delay="600">
+                    <h1 class="display-1 text-white mb-4">Hosting cPanel</h1>
+                    <p class="text-white" style="font-size: 17px;">
+                    Descubre la excelencia en alojamiento web con nuestros planes hosting Linux, respaldados por CloudLinux™. Contamos con soporte local en Perú para brindarte una atención en tu idioma. Con una sólida trayectoria de 10 años por parte de nuestro socio tecnológico HostingLabs, te garantizamos un servicio excepcional tanto para tus proyectos personales como para las necesidades empresariales. Explora nuestra gama de planes de hosting diseñados para cubrir desde sitios en Wordpress™ hasta tiendas en línea en Magento™.
+                    </p>
                 </div>
-                <!-- /.row -->
+                <!-- /column -->
+                <div class="col-12 col-lg-5 mb-n12" data-cues="slideInDown">
+                    <div class="position-relative">
+                        <!-- <a href="../assets/media/movie.mp4" class="btn btn-circle btn-primary btn-play ripple mx-auto mb-6 position-absolute" style="top:50%; left: 50%; transform: translate(-50%,-50%); z-index:3;" data-glightbox><i class="icn-caret-right"></i></a>
+                            <figure class="rounded shadow-lg"><img src="../assets/img/photos/about13.jpg" srcset="../assets/img/photos/about13@2x.jpg 2x" alt=""></figure> -->
+                        <img class="img-fluid d-flex mx-auto" width="500px"
+                            src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1694642661/Ima13_x5z6ii.png"
+                            alt="test">
+                    </div>
+                    <!-- /div -->
+                </div>
+                <!-- /column -->
             </div>
+            <!-- /.row -->
         </div>
+        <!-- /.container -->
+</section>
+
 
 
 
 
         <div class="container pt-md-14">
             <div class="row align-items-center">
-                <div class="col-lg-8 col-md-12 text-md-center text-lg-start">
-                    <h1 class="display-3 mb-3">Planes de Hosting</h1>
-                    <p class="">
-                        Ofrecemos servicios de alojamiento web de alta calidad
-                        respaldados
-                        por CloudLinux™ y con soporte local en Perú y en tu idioma. Con una trayectoria de 10 años en el
-                        mercado,
-                        podemos garantizar un servicio excepcional tanto para tus sitios web personales como para las
-                        aplicaciones
-                        de tu empresa. Ofrecemos una amplia variedad de planes de hosting para satisfacer todas tus
-                        necesidades,
-                        desde alojar un blog en Wordpress™ hasta hospedar un sitio web empresarial en Joomla™ o una
-                        tienda en
-                        línea
-                        en Magento™.
-                    </p>
+                <div class="col-lg-6 col-md-12 text-md-center text-lg-center">
+                    <img src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1694642790/Ima15_njhs2m.png"
+                        alt="" width="450px" class="ps-lg-5">
                 </div>
-                <div class="col-lg-3 col-md-12 d-flex align-items-center justify-md-content-center">
+                <div class="col-lg-6 col-md-12 text-md-center">
                     <img src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1691800633/setecloud/cloudlinux_nbor7e.png"
                         alt="" class="ps-lg-5">
                 </div>
@@ -122,9 +118,7 @@
 
         </div>
 
-        <div class="container pt-md-14 pb-md-11">
-            <!-- /column -->
-            <!-- /.row -->
+        <!-- <div class="container pt-md-14 pb-md-11">
             <div class="card mt-10">
                 <style>
                     table {
@@ -219,9 +213,138 @@
                 </table>
                 <span>* Los precios no incluyen impuestos.</span>
             </div>
-        </div>
+        </div> -->
         <!-- /.container -->
     </section>
+
+
+
+
+
+
+
+    <section class="wrapper bg-light">
+  <div class="container py-14 py-md-16">
+  <h1 class="display-3 mb-3 text-start pt-16">Elige el mejor plan</h1>
+    <div class="pricing-wrapper">
+      <div class="row gx-0 gy-6 mt-2">
+        <div class="col-md-6 col-lg-3">
+          <div class="pricing card shadow-none">
+            <div class="card-body">
+              <img width="100px" src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1694636945/Plan_Personal_wns821.png" alt="">
+              <h4 class="card-title">Plan Personal</h4>
+              <div class="prices text-dark">
+                <div class="price justify-content-start"><span class="price-currency">S/</span><span class="price-value">90.00</span> <span class="price-duration">año</span></div>
+              </div>
+              <!--/.prices -->
+              <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8">
+                <li><i class="uil uil-check"></i>1000 MB de espacio</li>
+                <li><i class="uil uil-check"></i>10 GB de transferencia mensual</li>
+                <li><i class="uil uil-check"></i>10 cuentas de correo-e</li>
+              </ul>
+              <a href="https://wa.me/51942659045" class="btn btn-soft-primary rounded-pill">Contratar</a>
+            </div>
+            <!--/.card-body -->
+          </div>
+          <!--/.pricing -->
+        </div>
+        <!--/column -->
+        <div class="col-md-6 col-lg-3">
+          <div class="pricing card shadow-none">
+            <div class="card-body">
+            <img width="100px" src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1694637040/Plan_Profesional_lhu3sm.png" alt="">
+              <h4 class="card-title">Plan Profesional</h4>
+              <div class="prices text-dark">
+                <div class="price justify-content-start"><span class="price-currency">S/</span><span class="price-value">180.00</span> <span class="price-duration">año</span></div>
+              </div>
+              <!--/.prices -->
+              <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8">
+                <li><i class="uil uil-check"></i>5000 MB de espacio</li>
+                <li><i class="uil uil-check"></i>50 GB de transferencia mensual</li>
+                <li><i class="uil uil-check"></i>50 cuentas de correo-e</li>
+                <li><i class="uil uil-check"></i>Certificado SSL incluido</li>
+              </ul>
+              <a href="https://wa.me/51942659045" class="btn btn-soft-primary rounded-pill">Contratar</a>
+            </div>
+            <!--/.card-body -->
+          </div>
+          <!--/.pricing -->
+        </div>
+        <!--/column -->
+        <div class="col-md-6 col-lg-3 relative">
+            <div class="absolute"><span class="badge bg-red rounded-pill">EL MÁS VENDIDO</span></div>
+          <div class="pricing card bg-soft-primary">
+            <div class="card-body">
+            <img width="100px" src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1694636988/Plan_Ilimitado_bgdrb4.png" alt="">
+              <h4 class="card-title">Plan Ilimitado</h4>
+              <div class="prices text-dark">
+                <div class="price justify-content-start"><span class="price-currency">S/</span><span class="price-value">450.00</span> <span class="price-duration">año</span></div>
+              </div>
+              <!--/.prices -->
+              <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8">
+                <li><i class="uil uil-check"></i>Espacio Ilimitado</li>
+                <li><i class="uil uil-check"></i>Transferencia mensual ilimitada</li>
+                <li><i class="uil uil-check"></i>100 cuentas de correo-e</li>
+                <li><i class="uil uil-check"></i>Certificado SSL incluido</li>
+                <li><i class="uil uil-check"></i>Dominio .COM incluido</li>
+              </ul>
+              <a href="https://wa.me/51942659045" class="btn btn-primary rounded-pill">Contratar</a>
+            </div>
+            <!--/.card-body -->
+          </div>
+          <!--/.pricing -->
+        </div>
+        <!--/column -->
+        <div class="col-md-6 col-lg-3">
+          <div class="pricing card shadow-none">
+            <div class="card-body">
+              <img width="100px" src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1694637011/Plan_Empresas_tucpjk.png" alt="">
+              <h4 class="card-title">Plan Empresas</h4>
+              <div class="prices text-dark">
+                <div class="price justify-content-start"><span class="price-currency">S/</span><span class="price-value">350.00</span> <span class="price-duration">año</span></div>
+              </div>
+              <!--/.prices -->
+              <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8">
+                <li><i class="uil uil-check"></i>50 GB de espacio</li>
+                <li><i class="uil uil-check"></i>100 GB de transferencia mensual</li>
+                <li><i class="uil uil-check"></i>50 cuentas de correo-e</li>
+                <li><i class="uil uil-check"></i>Certificado SSL incluido</li>
+                <li><i class="uil uil-check"></i>Dominio .COM incluido</li>
+              </ul>
+              <a href="https://wa.me/51942659045" class="btn btn-soft-primary rounded-pill">Contratar</a>
+            </div>
+            <!--/.card-body -->
+          </div>
+          <!--/.pricing -->
+        </div>
+      </div>
+      <!--/.row -->
+    </div>
+    <!--/.pricing-wrapper -->
+    <p>* Los precios no incluyen impuestos.</p>
+  </div>
+  <!-- /.container -->
+</section>
+<!-- /section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <section class="wrapper container mb-15 text-center">
         <div class="row">
@@ -304,11 +427,7 @@
                         <div class="card-body">
                             <h3>Dominio Gratis</h3>
                             <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                                <li><i class="uil uil-check"></i> Nuestros planes de hosting Profesional e Ilimitado
-                                    incluyen un dominio
-                                    .COM de cortesía. Asi tendrá todo lo necesario para iniciarse en internet en un solo
-                                    plan y con un
-                                    solo pago. </li>
+                                <li><i class="uil uil-check"></i>Al optar por nuestros planes de hosting Profesional e Ilimitado, recibirás un dominio .COM de cortesía. Todo lo que necesitas para dar tus primeros pasos en internet está incluido en un único plan y pago.</li>
                             </ul>
                         </div>
                     </div>
@@ -316,11 +435,7 @@
                         <div class="card-body">
                             <h3>Protección y Seguridad</h3>
                             <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                                <li><i class="uil uil-check"></i> Dos niveles de firewall (de red y aplicación) sirven
-                                    como barreras
-                                    ante ataques de terceros. Además, nuestros filtros mantienen los buzones de correo
-                                    libres de virus y
-                                    spam. </li>
+                                <li><i class="uil uil-check"></i> Seguridad en capas: nuestros sistemas cuentan con dos niveles de firewall (de red y de aplicación) para garantizar la protección contra amenazas externas. Asimismo, nuestros filtros aseguran que tus correos estén libres de virus y spam. </li>
                             </ul>
                         </div>
                     </div>
@@ -328,11 +443,7 @@
                         <div class="card-body">
                             <h3>Panel de Control</h3>
                             <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                                <li><i class="uil uil-check"></i> Como cliente, tendrás acceso a la gestión de todas las
-                                    funcionalidades
-                                    disponibles en tu plan de hosting. Podrás crear nuevos correos-e, bases de datos,
-                                    cuentas FTP, y mucho
-                                    más. </li>
+                                <li><i class="uil uil-check"></i> La capacidad de gestionar está en tus manos, como cliente, podrás administrar todas las funcionalidades de tu plan de hosting. Esto incluye la creación de correos electrónicos, bases de datos, cuentas FTP y mucho más</li>
                             </ul>
                         </div>
                     </div>
@@ -342,10 +453,7 @@
                         <div class="card-body">
                             <h3>Backups Interdiarios</h3>
                             <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                                <li><i class="uil uil-check"></i> Realizamos backups interdiarios de todos los archivos
-                                    en tu plan de
-                                    hosting. Siempre tendremos una copia actualizada de tu información ante emergencias
-                                    e imprevistos.
+                                <li><i class="uil uil-check"></i>Tu información siempre resguardada con backups interdiarios, mantenemos copias actualizadas de todos los archivos en tu plan de hosting. Tu seguridad es nuestra prioridad.
                                 </li>
                             </ul>
                         </div>
@@ -354,11 +462,7 @@
                         <div class="card-body">
                             <h3>Soporte 24x7</h3>
                             <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                                <li><i class="uil uil-check"></i> Ya sea vía chat, correo-e o teléfono. Nuestros tres
-                                    canales de
-                                    atención nos permiten atender rápidamente y guardar registro de cada una de tus
-                                    peticiones de
-                                    asistencia. </li>
+                                <li><i class="uil uil-check"></i> Tres formas de conectarnos contigo: a través de chat, correo electrónico y teléfono, estamos disponibles para atender tus consultas rápidamente. Mantenemos un registro meticuloso de cada solicitud para asegurar tu satisfacción</li>
                             </ul>
                         </div>
                     </div>
@@ -366,11 +470,7 @@
                         <div class="card-body">
                             <h3>Acceso vía WebMail</h3>
                             <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                                <li><i class="uil uil-check"></i> Nuestro WebMail te permite acceder a tu cuenta de
-                                    correo-e desde
-                                    cualquier parte del mundo, solo con un navegador web y sin necesidad de instalar un
-                                    programa
-                                    especializado. </li>
+                                <li><i class="uil uil-check"></i> Tu correo con alcance global: Con nuestro WebMail, puedes entrar a tu cuenta de correo electrónico desde cualquier lugar. No hay necesidad de instalar programas, solo un navegador web es suficiente.</li>
                             </ul>
                         </div>
                     </div>
@@ -380,11 +480,7 @@
                         <div class="card-body">
                             <h3>Estadísticas Web</h3>
                             <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                                <li><i class="uil uil-check"></i> Para que puedas estar siempre pendiente de las visitas
-                                    a tu sitio web.
-                                    Podrás observar y descargar estadísticas actualizadas en tiempo real directamente
-                                    desde tu panel de
-                                    control. </li>
+                                <li><i class="uil uil-check"></i>Mantente al tanto de tus visitas web en todo momento con la posibilidad de ver y descargar estadísticas actualizadas en tiempo real, directamente desde tu panel de control. </li>
                             </ul>
                         </div>
                     </div>
@@ -392,11 +488,7 @@
                         <div class="card-body">
                             <h3>Aplicaciones Pre-instaladas</h3>
                             <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                                <li><i class="uil uil-check"></i> Nuestro gestor de aplicaciones te permite instalar las
-                                    aplicaciones
-                                    más usadas en internet. Wordpress, Joomla, Magento y muchas otras más están a solo
-                                    unos clics de
-                                    distancia. </li>
+                                <li><i class="uil uil-check"></i> La simplicidad a tu alcance con nuestro gestor de aplicaciones. Desde Wordpress hasta Joomla y Magento, puedes tener tus aplicaciones favoritas instaladas en cuestión de clics.</li>
                             </ul>
                         </div>
                     </div>

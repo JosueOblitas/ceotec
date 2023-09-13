@@ -133,9 +133,9 @@
                             </td>
                             <td >
                                 <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
-                                    <li class="ps-1">- No tienen</li>
-                                    <li class="ps-1">- Revenden servicios del extranjero</li>
-                                    <li class="ps-1">- Pésima calidad en sus servicios</li>
+                                    <li><i class="uil uil-times bullet-soft-red"></i> No tienen</li>
+                                    <li><i class="uil uil-times bullet-soft-red"></i> Revenden servicios del extranjero</li>
+                                    <li><i class="uil uil-times bullet-soft-red"></i> Pésima calidad en sus servicios</li>
                                 </ul>
                             </td>
                         </tr>
@@ -149,8 +149,8 @@
                             </td>
                             <td>
                             <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
-                                    <li class="ps-1">- Almacenamiento en discos locales sin redundancia</li>
-                                    <li class="ps-1">- Expuestos a perdida de información</li>
+                                    <li class="ps-1"><i class="uil uil-times bullet-soft-red"></i> Almacenamiento en discos locales sin redundancia</li>
+                                    <li class="ps-1"><i class="uil uil-times bullet-soft-red"></i> Expuestos a perdida de información</li>
                                 </ul>
                             </td>
                         </tr>
@@ -164,9 +164,9 @@
                             </td>
                             <td>
                             <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
-                                    <li class="ps-1">- IPs reutilizadas</li>
-                                    <li class="ps-1">- IPs en lista negra</li>
-                                    <li class="ps-1">- No tienen control sobre las IPs</li>
+                                    <li class="ps-1"><i class="uil uil-times bullet-soft-red"></i> IPs reutilizadas</li>
+                                    <li class="ps-1"><i class="uil uil-times bullet-soft-red"></i> IPs en lista negra</li>
+                                    <li class="ps-1"><i class="uil uil-times bullet-soft-red"></i> No tienen control sobre las IPs</li>
                                 </ul>
                             </td>
                         </tr>
@@ -181,8 +181,8 @@
                             </td>
                             <td>
                             <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
-                                    <li class="ps-1">- Tercerizado</li>
-                                    <li class="ps-1">- Cuentan con 1 solo nivel de atención</li>
+                                    <li class="ps-1"><i class="uil uil-times bullet-soft-red"></i> Tercerizado</li>
+                                    <li class="ps-1"><i class="uil uil-times bullet-soft-red"></i> Cuentan con 1 solo nivel de atención</li>
                                     <li class="ps-1">- Demora en la respuesta</li>
                                 </ul>
                             </td>
@@ -289,8 +289,9 @@
                     </div>
                     <!--/column -->
                     <!--/column -->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="pricing card text-center">
+                    <div class="col-md-6 col-lg-4" style="margin-top: -10px;">
+                        <div><span class="badge bg-red rounded-pill">EL MÁS VENDIDO</span></div>
+                        <div class="pricing card text-center bg-soft-primary">
                             <div class="card-body">
                                 <img width="100px" height="80px"
                                     src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1694469565/setecloud/Cloud_3_eevywe.png"
