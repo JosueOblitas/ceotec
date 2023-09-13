@@ -183,7 +183,7 @@
                             <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
                                     <li><i class="uil uil-times bullet-soft-red"></i> Tercerizado</li>
                                     <li><i class="uil uil-times bullet-soft-red"></i> Cuentan con 1 solo nivel de atención</li>
-                                    <li><i class="uil uil-times bullet-soft-red"> Demora en la respuesta</li>
+                                    <li><i class="uil uil-times bullet-soft-red"></i> Demora en la respuesta</li>
                                 </ul>
                             </td>
                         </tr>
