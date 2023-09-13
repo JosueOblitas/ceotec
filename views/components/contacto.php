@@ -52,7 +52,7 @@
                         </div>
                         <div class="col-md-12">
                             <div class="form-floating mb-4">
-                                <input id="phone" type="text" pattern="[789][0-9]{9} name="phone" class="form-control"
+                                <input id="phone" type="text" pattern="^(\+51\s?)?(\d{9}|\d{3}-\d{3}-\d{3})$" required name="phone" class="form-control"
                                     placeholder="jane.doe@example.com">
                                 <label for="phone">Telefono *</label>
                             </div>
@@ -61,7 +61,7 @@
                         <div class="col-12">
                             <div class="form-floating mb-4">
                                 <textarea id="form_message" name="mensaje" class="form-control"
-                                    placeholder="Your message" style="height: 150px"></textarea>
+                                    placeholder="Your message" style="height: 150px" required></textarea>
                                 <label for="form_message">Mensaje *</label>
                             </div>
                         </div>
