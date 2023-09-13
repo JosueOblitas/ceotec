@@ -20,32 +20,24 @@
 <body>
     <?php require_once('components/header.php') ?>
 
-    <section class="wrapper bg-dark lower-start py-5">
-        <div class="container pb-md-15 pb-8">
-            <div class="row d-flex align-items-center">
-                <div class="col-12 col-lg-7 mt-md-15" data-cues="slideInDown" data-group="page-title" data-delay="600">
-                    <h1 class="display-1 text-white mb-4">Almacenamiento en Nube</h1>
-                    <p class="text-white" style="font-size: 17px;">
-                    Nuestro servicio de correo-e corporativo, basado en la potente plataforma Zimbra™, ofrece cuentas de correo con hasta 50GB de almacenamiento, con funciones de colaboración avanzada (Groupware) y una sólida protección contra amenazas de spam y malware.
-                    </p>
-                </div>
-                <!-- /column -->
-                <div class="col-12 col-lg-5 mb-n12" data-cues="slideInDown">
-                    <div class="position-relative">
-                        <!-- <a href="../assets/media/movie.mp4" class="btn btn-circle btn-primary btn-play ripple mx-auto mb-6 position-absolute" style="top:50%; left: 50%; transform: translate(-50%,-50%); z-index:3;" data-glightbox><i class="icn-caret-right"></i></a>
-                            <figure class="rounded shadow-lg"><img src="../assets/img/photos/about13.jpg" srcset="../assets/img/photos/about13@2x.jpg 2x" alt=""></figure> -->
-                        <img class="img-fluid d-flex mx-auto" width="500px"
-                            src="https://res.cloudinary.com/dwipjtlpj/image/upload/v1694644262/Ima30_uknhej.png"
-                            alt="test">
+    <section class="pt-10 pb-9 pt-md-14 pb-md-11 text-center bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+                    <div class="post-header">
+                        <div class="post-category text-line">
+                            <a href="#" class="hover" rel="category">CEOTEC</a>
+                        </div>
+                        <!-- /.post-category -->
+                        <h1 class="display-1 mb-3 text-white">Almacenmaiento en Nube</h1>
                     </div>
-                    <!-- /div -->
+                    <!-- /.post-header -->
                 </div>
                 <!-- /column -->
             </div>
             <!-- /.row -->
         </div>
-        <!-- /.container -->
-</section>
+    </section>
     <section class="wrapper bg-light">
         <div class="container pt-14 pt-md-16">
             <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
